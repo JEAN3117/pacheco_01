@@ -1,0 +1,43 @@
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #1b0101;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    color: #fdfdfd;
+    display: block;
+    padding: 16px 30px; /* Arriba y abajo 14, izquierda y derecha 16 */
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #5e35f3;
+  }
+  
+  .activo {
+    background-color: #53a80e;
+  }
+  
+  .derecha {
+    float: right;
+  }
+
+  .miJumbo {
+    margin-top: 1rem;
+    padding: 32px 16px;
+    background-color: #f8f6f6;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
+  .color{
+    color: rgb(192, 1, 192);
+
+  }
